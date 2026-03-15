@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -122,9 +123,11 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'JetBrains Mono', var(--font-mono), monospace;
   }
   html {
     @apply font-sans;
+    font-family: 'JetBrains Mono', var(--font-mono), monospace;
     scroll-behavior: smooth;
   }
 
